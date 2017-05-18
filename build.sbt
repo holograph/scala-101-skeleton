@@ -23,7 +23,6 @@ libraryDependencies ++= Seq(
   "org.scalikejdbc" %% "scalikejdbc" % "2.5.2",
   "ch.qos.logback" % "logback-classic" % "1.2.3",
   "com.h2database" % "h2" % "1.4.195",
-  "org.scalaj" %% "scalaj-http" % "2.3.0" % "test",
   "org.scalatest" %% "scalatest" % "3.0.1" % "test",
   "org.mockito" % "mockito-core" % "1.9.5" % "test"
 )

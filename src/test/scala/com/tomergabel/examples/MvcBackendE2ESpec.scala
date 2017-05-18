@@ -12,7 +12,7 @@ class MvcBackendE2ESpec
   with FeatureTestMixin
   with TodoMvcApiDriver
 {
-  val server = new EmbeddedHttpServer(new TodoMvcServer with InMemoryStore)
+  val server: EmbeddedHttpServer = ???
 
   "TodoMVC server" when {
 
